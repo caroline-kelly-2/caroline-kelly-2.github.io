@@ -1,0 +1,1429 @@
+
+/*
+
+font-family: bebas-neue, sans-serif;
+font-style: normal;
+font-weight: 400;
+*/
+
+@font-face {
+font-family: "nuckle";
+src: url("css/fonts/nuckle book trial.otf");
+src: url("css/fonts/nuckle book trial.otf") format("opentype");
+}
+
+
+.white2{
+    background-color: white;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    min-width: 1670px;
+}
+
+.black1{
+    background-color: black;
+}
+
+/*
+.donut p {
+color: white;
+    font-family: "bebas neue", sans-serif;
+    font-size: 124pt;
+    line-height: 110pt;
+    text-align: right;
+    letter-spacing: -3px;
+    cursor: pointer;
+    padding: 0px;
+}
+*/
+
+
+/*back to top*/
+.navbar{
+     position: fixed;
+     top: 0;/* Stay on top */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    background-color: black;
+    z-index: +1;
+      width: 100%;
+
+}
+
+.donut figure {
+  display: none;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  padding: 0;
+  margin: 0;
+  width: 150px;
+  height: 150px;
+}
+
+.donut img {
+/*  max-width: 100%;*/
+  height: 400px;
+  width: 400px;
+}
+
+.donut:focus figure,
+.donut:hover figure {
+  display: block;
+    width: 950px;
+    height: 50px;
+    margin-top: 100px;
+}
+.donut:focus p,
+.donut:hover p {
+  background: none;
+}
+
+.indexck /* Name/ */
+{
+    color: white;
+    font-family: "bebas neue", sans-serif;
+    font-size: 159pt;
+    line-height: 130pt;
+    text-align: right;
+    letter-spacing: -5px;
+    cursor: pointer;
+    margin-left: -10px ;
+}
+
+.indexwork /* Name/ */
+{
+text-decoration-line: none;
+    color: white;
+    font-family: "bebas neue", sans-serif;
+    font-size: 124pt;
+    line-height: 110pt;
+    text-align: right;
+    letter-spacing: -3px;
+    cursor: pointer;
+    margin: 0px auto;
+    
+}
+
+.indexabout /* Name/ */
+{
+    color: white;
+    font-family: "bebas neue", sans-serif;
+    font-size: 124pt;
+    line-height: 110pt;
+    text-align: right;
+    letter-spacing: -3px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: -10px;
+}
+
+.indexcontact /* Name/ */
+{
+    color: white;
+    font-family: "bebas neue", sans-serif;
+    font-size: 124pt;
+    line-height: 110pt;
+    text-align: right;
+    letter-spacing: -3px;
+    cursor: pointer;
+}
+
+.indexcontact:hover{
+        background-color: yellow;
+    color: black;
+}
+
+.beer {
+  position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.beer {
+  position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.beer p {
+color: white;
+    font-family: "bebas neue", sans-serif;
+    font-size: 124pt;
+    line-height: 110pt;
+    text-align: right;
+    letter-spacing: -3px;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.beer figure {
+  display: none;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  padding: 0;
+  margin: 0;
+  width: 150px;
+  height: 150px;
+}
+
+.beer img {
+  max-width: 100%;
+  height: auto;
+  width: 400px;
+}
+
+.beer:focus figure,
+.beer:hover figure {
+  display: block;
+    width: 250px;
+    height: 250px;
+}
+.beer:focus p,
+.beer:hover p {
+  background: none;
+}
+
+.pdf{
+width: 100%;
+    margin-left: 0px;
+    
+}
+
+.workhead
+{
+    margin-left: 5px;
+    font-family: 'bebas neue';
+    font-size: 159pt;
+    line-height: 130pt;
+    letter-spacing: -5px;
+    color: ghostwhite;
+}
+
+.workcftext{
+    font-family: 'bebas neue';
+    font-size: 81pt;
+    color: ghostwhite;
+    line-height: 72px;
+    padding: 10px;
+    text-align: left;
+}
+
+.workcftext:hover { 
+    background-color: yellow;
+    color: black;
+}
+
+.cfheading{
+
+    font-family: 'bebas neue';
+    font-size: 52pt;
+}
+
+.workcfimage{
+    
+    background-image: url(../Images/tusla.png);
+    background-size: contain;
+    margin-top: 200px;
+    max-width: 50%;
+    height:380px;
+    background-repeat: no-repeat;
+    margin-left: 130px;
+
+}
+
+.workmedtext{
+    
+    color: ghostwhite;
+    font-family: 'bebas neue';
+    font-size: 81pt;
+    padding: 10px;
+    padding-top: 10px;
+    line-height: 110px;
+}
+
+.workmedtext:hover{
+  background-color: yellow;
+    color: black;
+}
+
+.workmedimage{
+    
+    background-image: url(../Images/watch.jpg);
+    background-size: contain;
+    max-width: 50%;
+    height:380px;
+    background-repeat: no-repeat;
+    margin-left: 1px;
+
+}
+
+.downloadtext{
+    margin-top: -10px;
+    color: ghostwhite;
+    font-family: 'bebas neue';
+    font-size: 81pt;
+    line-height: 130px;
+    margin-left: 5px;
+}
+
+.downloadtext:hover {
+    
+    color: black;
+    background-color: yellow;
+}
+
+a
+{
+    
+    text-decoration: none;
+    color: ghostwhite;
+    
+}
+
+a:hover { 
+    background-color: yellow;
+    color: black;
+    z-index: +1;
+
+}
+
+.navtitles 
+{
+    font-family: 'bebas neue' ;
+    color: whitesmoke;!important
+    
+}
+
+.navtitles :hover
+{
+    font-family: 'bebas neue' ;
+    color: black;
+background-color: yellow;
+}
+
+ .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler-iconw {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.behance
+{
+    width: 35px;
+    height: 25px;
+    align-content: right;
+    margin-top: 8px;
+    padding:1px;
+}
+
+.linkedin
+{
+    width: 30px;
+    background-size: 10px, 20px;
+    height: 30px;
+      margin-top: 4px;
+}
+
+.linkedin a:hover
+{
+    text-decoration: none;
+    background-color: black;
+}
+
+.behance:hover
+{
+        text-decoration: none;
+    background-color: none;
+
+}
+
+.vimeo{
+    
+    width: 25px;
+    height: 25px;
+    align-content: right;
+    margin-top: 8px;
+}
+
+
+.vimeo:hover
+{
+    
+    text-decoration: none;
+    background-color: none;}
+
+.np{
+    display:inline-block;
+    width: 1150px;
+}
+
+
+.nps{
+    display:inline-block;
+    width: 1050px;
+}
+
+
+.medimg1
+{
+    height: 600px;
+    width: 600px;    
+    margin-left: -250px;
+}
+
+.medimg2
+{
+    height: 600px;
+    width: 600px;    
+    margin-left: 180px;
+    margin-top: -625px;
+}
+
+.medimg3
+{
+    height: 600px;
+    width: 600px;    
+    margin-left: 630px;
+    margin-top: -669px;
+}
+
+.medheading{
+    
+    margin-left: -200px;
+    margin-top: -90px;
+    font-family: 'bebas neue';
+    font-size: 199pt;
+    line-height: 189pt;
+    color: black;
+    background-color: yellow;
+}
+
+.medsub{
+    
+    margin-left: -210px;
+    margin-top: 10px;
+    text-align:left;
+    font-family: 'bebas neue';
+    font-size: 115pt;
+    line-height: 96pt;
+    color: ghostwhite;
+    min-width: 1500px;
+    letter-spacing: -1px;
+    
+}
+
+.medpara1{
+    
+    font-family: 'nuckle';
+    color: ghostwhite;
+    font-size: 15pt;
+    line-height: 18pt;
+    margin-left: -200px;
+
+}
+
+.medpara2{
+    
+    font-family: 'nuckle';
+    color: ghostwhite;
+    font-size: 15pt;
+    line-height: 18pt;
+    margin-left: 450px;
+    margin-top: -255px;
+
+}
+
+.olduser{
+    
+    height: 1400px;
+    width: 800px;    
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.oldusercaption
+{
+    background-color: yellow;
+    font-family: 'bebas neue';
+    color: black;
+    font-size: 21pt;
+    line-height: 21pt;
+    margin-left: -200px;
+    margin-top: 200px;
+    max-width: 165px;
+
+}
+
+.newusercaption
+{
+    background-color: yellow;
+    font-family: 'bebas neue';
+    color: black;
+    font-size: 21pt;
+    line-height: 21pt;
+    margin-left: -200px;
+    margin-top: 200px;
+    max-width: 515px;
+
+}
+
+.newuser{
+    
+    height: 1200px;
+    width: 800px;    
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.white1{
+    background-color: white;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    min-width: 1670px;
+    margin-left: -300px;
+}
+
+.diagram
+{
+    width: 1160px;
+    height: 523px;
+    margin-left: 250px;
+    margin-top: 150px;
+}
+
+.medimg4{
+    height: 500px;
+    width: 500px;    
+    margin-left: -160px;
+    margin-top: -120px;    
+    
+}
+
+.medimg4caption{
+    
+    background-color: yellow;
+    font-family: 'bebas neue';
+    color: black;
+    font-size: 21pt;
+    line-height: 21pt;
+    margin-left: -200px;
+    margin-top: 190px;
+    max-width: 145px;
+    
+}
+
+.medimg5{
+    height: 500px;
+    width: 500px;    
+    margin-left: -160px;
+    margin-top: -135px;    
+    
+}
+
+.medimg5caption{
+    
+    background-color: yellow;
+    font-family: 'bebas neue';
+    color: black;
+    font-size: 20pt;
+    line-height: 18pt;
+    margin-left: -200px;
+    margin-top: -180px;
+    max-width: 165px;
+    
+}
+
+.medimg6{
+    height: 800px;
+    width: 800px;    
+    margin-left: 290px;
+    margin-top: -490px;    
+    
+}
+
+.medimg6caption{
+    
+    background-color: yellow;
+    font-family: 'bebas neue';
+    color: black;
+    font-size: 21pt;
+    line-height: 21pt;
+    margin-left: -200px;
+    margin-top: 190px;
+    max-width: 145px;
+    
+}
+
+.tuslaheading{ 
+    margin-left: -210px;
+    margin-top: 90px;
+    font-family: 'bebas neue';
+    font-size: 149pt;
+    line-height: 139pt;
+    color: black;
+    background-color: yellow;
+    letter-spacing: -5px;
+
+}
+
+.bird{
+    margin-left: 1000px;
+    margin-top: -250px;
+    max-height: 300px;
+    max-width: 300px;
+    
+}
+
+.who{
+    opacity: 0.1;
+    margin-left: 850px;
+    padding:150px;
+    margin-top: -420px;
+    max-height: 300px;
+    max-width: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../Images/who.png)
+    
+    
+}
+
+.who:hover
+{
+    padding:150px;
+    margin-left: 850px;
+    margin-top: -390px;
+    max-height: 300px;
+    max-width: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1.0;   
+    background-image: url(../Images/who.gif)
+    
+}
+
+.plane{
+    opacity: 0.3;
+    margin-left: 240px;
+    margin-top: -620px;
+    padding: 150px;
+    max-height: 300px;
+    max-width: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../Images/paper.png)
+}
+
+.plane:hover
+{
+    opacity: 1.0;
+    margin-left: 270px;
+    margin-top: -500px;
+    padding: 150px;
+    max-height: 300px;
+    max-width: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../Images/plane.gif)
+}
+
+.tuslaimg1{
+    height: 700px;
+    width: 500px;    
+    margin-left: -150px;
+    margin-top: 50px;
+    
+}
+
+.tuslaimg2{
+    height: 600px;
+    width: 600px;    
+    margin-left: 50px;
+    margin-top: -530px;
+    
+}
+
+.tuslaimg3{
+    height: 680px;
+    width: 500px;    
+    margin-left: 550px;
+    margin-top: -890px;
+    
+}
+
+.tuslaimg4{
+    height: 600px;
+    width: 600px;  
+    margin-left: 750px;
+    margin-top: -680px;
+    
+}
+
+.tuslasub{
+     margin-left: -220px;
+    margin-top: 10px;
+    text-align:left;
+    font-family: 'bebas neue';
+    font-size: 115pt;
+    line-height: 99pt;
+    color: ghostwhite;
+    min-width: 1590px;
+    letter-spacing: -1px;
+    
+}
+
+.tuslaimg5{
+    height: 800px;
+    width: 650px;  
+    margin-left: -200px;
+    margin-top: 40px;
+    
+}
+
+.tuslaimg6{
+    height: 800px;
+    width: 590px;  
+    margin-left: 480px;
+    margin-top: 300px;
+    
+}
+
+.tuslaimg7{
+    height: 800px;
+    width: 630px;  
+    margin-left: -200px;
+    margin-top: 790px;
+    
+}
+
+.tuslacaption1{
+    background-color: yellow;
+    font-family: 'bebas neue';
+    color: black;
+    font-size: 21pt;
+    line-height: 20pt;
+    margin-left: 450px;
+    margin-top: -790px;
+    max-width: 320px;
+ 
+    
+}
+
+.tuslacaption2{
+    background-color: yellow;
+    font-family: 'bebas neue';
+    color: black;
+    font-size: 21pt;
+    line-height: 18pt;
+    margin-left: 1090px;
+    margin-top: -790px;
+    max-width: 200px;
+ 
+    
+}
+
+.tuslacaption3{
+    background-color: yellow;
+    font-family: 'bebas neue';
+    color: black;
+    font-size: 21pt;
+    line-height: 20pt;
+    margin-left: 450px;
+    margin-top: -790px;
+    max-width: 390px;
+}
+
+.tuslalong{
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  background-color: black;
+  min-width: 150%;
+  max-height: 200%;
+  margin-left: -280px;
+  margin-top: 800px;
+  
+
+}
+
+.card {display: flex}
+.card {
+  overflow-x: auto;
+}
+
+.longimg{
+    opacity: 1.0;
+    display: inline;
+    max-width: 200%;
+    
+    
+}
+
+.longimg:hover{
+
+}
+
+.email{
+      
+    font-family: 'bebas neue';
+    font-size: 93pt;
+    color: ghostwhite;
+    line-height: 65px;
+    padding: 10px;
+    text-align: left;
+    margin-left: -200px;
+}
+    
+.contacthead{
+     
+    margin-left: -155px;
+    font-family: 'bebas neue';
+    font-size: 159pt;
+    line-height: 130pt;
+    letter-spacing: -5px;
+    color: ghostwhite;
+    
+}
+
+.contactb{
+      
+    font-family: 'bebas neue';
+    font-size: 93pt;
+    color: ghostwhite; !important
+    line-height: 72px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+    
+.contactb:hover{
+    color: black;
+}
+  
+.contactl{
+      
+    font-family: 'bebas neue';
+    font-size: 93pt;
+    color: ghostwhite; !important
+    line-height: 72px;
+    margin-left: -200px;
+    margin-top: -900px;
+}
+    
+.contacti{
+     margin-top: -100px;
+    font-family: 'bebas neue';
+    font-size: 93pt;
+    color: ghostwhite; !important
+    line-height: 72px;
+   
+    
+}
+
+
+.abouthead{
+    margin-left: -25px;
+    font-family: 'bebas neue';
+    font-size: 159pt;
+    line-height: 130pt;
+    letter-spacing: -5px;
+    color: black;
+    
+}
+
+.aboutpara{
+    font-family: 'bebas neue';
+    color: black;
+    font-size: 58pt;
+    line-height: 52pt;
+    margin-left: 450px;
+    margin-top: -450px;
+}
+
+
+
+.aboutdog{
+    font-family: 'bebas neue';
+    color: black;
+    font-size: 58pt;
+    line-height: 52pt;
+    margin-top: : -200px
+   
+}
+
+
+.dogimg{
+
+    margin-top: -190px;
+   
+}
+
+
+.aboutplayful{
+    font-family: 'bebas neue';
+    color: black;
+    font-size: 58pt;
+    line-height: 52pt;
+    margin-top:;
+   
+}
+
+.playfulimg{
+
+    margin-top: -190px;
+   
+}
+
+.aboutind{
+    font-family: 'bebas neue';
+    color: black;
+    font-size: 58pt;
+    line-height: 52pt;
+    margin-top: 290px;
+   
+}
+
+
+.indimg{
+
+    margin-top: -490px;
+   
+}
+
+
+.about
+{
+    height: 450px;
+    width: 360px;    
+    margin-left: 10px;
+    margin-top: 105px;
+}
+
+
+
+/* 
+# Responsive breakpoints
+# https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints
+Extra small   <576px  	.col-
+Small         ≥576px    .col-sm-
+Medium        ≥768px    .col-md-
+Large         ≥992px    .col-lg-
+Extra large   ≥1200px   .col-xl-
+*/
+
+
+/* Apply these rules if the screen width is LESS than 576px */
+@media(max-width:576px)
+
+{
+ 
+.indexck /* Name/ */
+{
+ 
+    font-size: 48pt;
+    line-height: 40pt;
+    text-align: right;
+    letter-spacing: 0px;
+    cursor: pointer;
+    margin-left:1px;
+}   
+    
+.indexwork /* Name/ */
+{
+    
+    font-size: 48pt;
+    line-height: 54pt;
+    text-align: right;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    margin: 2px ;
+    
+}
+
+.indexabout /* Name/ */
+{
+  
+    font-size: 48pt;
+    line-height: 54pt;
+    text-align: right;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: ;
+}
+
+
+.abouthead{
+    margin-left: 25px;
+    font-family: 'bebas neue';
+    font-size: 75pt;
+    line-height: 130pt;
+    letter-spacing: -5px;
+    color: black;
+    
+}    
+    
+.indexcontact /* Name/ */
+{
+    
+    font-size: 48pt;
+    line-height: 42pt;
+    text-align: right;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    margin-left: ;
+}
+    
+.newusercaption
+{
+    background-color: yellow;
+    font-family: 'bebas neue';
+    color: black;
+    font-size: 12pt;
+    line-height: 12pt;
+    margin-left:5px;
+    margin-top: 200px;
+    max-width: 480px;
+
+}
+    
+.newuser{
+        
+    margin-top: 20px;
+    width:300px;
+    height:440px;
+    margin-left: 40px;
+    }
+    
+.white1
+   {
+    min-width: 687px;
+    height:230px;
+    margin-top: 10px;
+}
+    
+.diagram
+{
+    z-index: +1;
+    width:400px;
+    height:190px;
+    margin-left: 280px;
+    margin-top: 10px;
+}
+
+.medimg1
+{
+    height: 200px;
+    width: 200px;    
+    margin-left: -50px;
+    margin-top: 90px;
+}
+    
+.medimg2
+{
+    height: 200px;
+    width: 200px;    
+    margin-left: 65px;
+    margin-top: -220px;
+}
+    
+.medimg3
+{
+    height: 200px;
+    width: 200px;    
+    margin-left: 180px;
+    margin-top: -270px;
+}
+    
+.medheading{
+    
+    margin-left: 2px;
+    margin-top: -80px;
+    font-family: 'bebas neue';
+    font-size: 111pt;
+    line-height: 96pt;
+    color: black;
+    background-color: yellow;
+}   
+
+.medsub{
+    
+    margin-left: -22px;
+    margin-top: 10px;
+    text-align: left;
+    font-family: 'bebas neue';
+    font-size: 33pt;
+    line-height: 30pt;
+    color: ghostwhite;
+    min-width: 450px;
+    max-width: 500px;
+    width: 20px;
+    letter-spacing: -1px;
+    
+}
+    
+.medpara1{    
+    font-family: 'nuckle';
+    color: ghostwhite;
+    font-size: 12pt;
+    line-height: 12pt;
+    margin-left: -10px;
+}
+
+    
+.medpara2{
+    
+    font-family: 'nuckle';
+    color: ghostwhite;
+    font-size: 12pt;
+    line-height: 12pt;
+    margin-left: -10px;
+    margin-top: 5px;
+    max-width: 500px;
+}
+    
+.olduser{
+    
+    height: 610px;
+    width: 360px;    
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+.oldusercaption
+{
+    background-color: yellow;
+    font-family: 'bebas neue';
+    color: black;
+    font-size: 15pt;
+    line-height: 15pt;
+    margin-left: 40px;
+    margin-top: 50px;
+    max-width: 155px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+    
+.newusercaption
+{
+   background-color: yellow;
+    font-family: 'bebas neue';
+    color: black;
+    font-size: 15pt;
+    line-height: 15pt;
+    margin-left: 70px;
+    margin-top: 90px;
+    max-width: 195px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.newuser{
+    
+      
+    height: 610px;
+    width: 360px;    
+    margin-left: 5px;
+    margin-top: -20px;
+} 
+    
+.medimg4{
+    height: 500px;
+    width: 500px;    
+    margin-left: -100px;
+    margin-top: -270px;   
+    
+}
+    
+  /*reminder screen*/      
+.medimg5{
+    height: 500px;
+    width: 500px;    
+    margin-left: -100px;
+    margin-top: -1170px;   
+    
+}
+/*calendar screen*/
+.medimg6{
+    height: 500px;
+    width: 500px;    
+    margin-left: -100px;
+    margin-top: 370px;   
+    
+}
+
+.np{
+    display:inline-block;
+}   
+   
+.workhead
+{
+    margin-left: 5px;
+    font-family: 'bebas neue';
+    font-size: 75pt;
+    line-height: 130pt;
+    letter-spacing: -2px;
+    color: ghostwhite;
+}
+
+.workcftext{
+    font-family: 'bebas neue';
+    font-size: 51pt;
+    color: ghostwhite;
+    line-height: 60px;
+    text-align: left;
+    margin-top: -590px;
+    margin-left: -10px; 
+}
+
+.workcftext:active { 
+    background-color: yellow;
+    color: black;
+}
+
+.cfheading{
+
+    font-family: 'bebas neue';
+    font-size: 52pt;
+}
+
+.workcfimage{
+    
+    background-image: url(../Images/tusla.png);
+    background-size: contain;
+    margin-top: 200px;
+    max-width: 50%;
+    height:380px;
+    background-repeat: no-repeat;
+    margin-left: 130px;
+
+}
+
+.workmedtext{
+    
+    font-family: 'bebas neue';
+    font-size: 54pt;
+    color: ghostwhite;
+    line-height: 69px;
+    padding: 10px;
+    padding-top: 10px;
+    margin-left: -10px;
+}
+
+.workmedtext:hover{
+  background-color: yellow;
+    color: black;
+}
+
+.workmedimage{
+    
+    background-image: url(../Images/watch.jpg);
+    background-size: contain;
+    max-width: 50%;
+    height:380px;
+    background-repeat: no-repeat;
+    margin-left: 1px;
+
+}
+
+.downloadtext{
+    margin-top: -10px;
+    font-family: 'bebas neue';
+    font-size: 54pt;
+    color: ghostwhite;
+    line-height: 69px;
+    padding-top: 10px;
+    margin-left: 1px;
+}
+       
+.contacthead{
+     
+    margin-left: 25px;
+    font-family: 'bebas neue';
+    font-size: 63pt;
+    line-height: 130pt;
+    letter-spacing: 1px;
+    color: ghostwhite;
+    
+}
+
+.contactb{
+      
+    font-family: 'bebas neue';
+   font-size: 24pt;
+    color: ghostwhite; !important
+    line-height: 72px;
+    margin-left: 20px;
+    margin-top: -900px;
+}
+    
+.contactl{
+      
+    font-family: 'bebas neue';
+    font-size: 24pt;
+    color: ghostwhite; !important
+    line-height: 72px;
+    margin-left: -200px;
+    margin-top: -900px;
+}
+    
+.contacti{
+    font-family: 'bebas neue';
+    font-size: 24pt;
+    color: ghostwhite; 
+    margin-left: 120px;
+    
+}   
+    
+.email{
+      
+    font-family: 'bebas neue';
+    font-size: 24pt;
+    color: ghostwhite;
+    margin-top: -90px;
+    text-align: left;
+    margin-left: 10px;
+}
+   
+    
+.beer {
+  position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.beer {
+  position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.beer p {
+color: white;
+    font-family: "bebas neue", sans-serif;
+    font-size: 124pt;
+    line-height: 110pt;
+    text-align: right;
+    letter-spacing: -3px;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.beer figure {
+  display: none;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  padding: 0;
+  margin: 0;
+  width: 150px;
+  height: 150px;
+}
+
+.beer img {
+  max-width: 100%;
+  height: auto;
+  width: 200px;
+    margin-top: -150px;  
+    margin-left: -100px;
+}
+
+.beer:focus figure,
+.beer:hover figure {
+  display: block;
+    width: 100px;
+    height: 100px;
+    margin-left: -200px;
+}
+.beer:focus p,
+.beer:hover p {
+  background: none;
+}
+    
+    
+    
+    
+}
+
+
+/*
+
+@media(max-width:992pxpx){
+ 
+
+.np{
+    display:inline-block;
+    max-width: -250px;
+    margin-top: 320px;
+
+}
+
+    
+*/
+    
+    
+}
+/*
+
+
+
+
+@media(min-width:576px){
+ 
+    .links{
+    font-size: 36pt;
+  }
+
+    .links2{
+    font-size: 36pt; 
+    text-align: left;
+  }
+
+    .links3{
+    font-size: 36pt;
+  }
+    }        
+
+
+@media(max-width:1034px){
+  
+    
+    
+@media(min-width:992px){
+        
+.links {
+     font-size: 40pt;
+    color:white;
+    }
+    
+.links2 {
+     font-size: 40pt;
+    color: white;
+        }   
+    
+.links3  {
+     font-size: 72pt;
+    }
+   
+@media(max-width:1200px){
+ 
+    .links{
+    font-size: 76pt;
+  }
+
+    .links2{
+    font-size: 76pt;
+  }
+
+    .links3{
+    font-size: 76pt;
+  }
+
+
+
+
+*/
