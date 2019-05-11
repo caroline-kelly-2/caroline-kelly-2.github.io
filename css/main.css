@@ -7,17 +7,19 @@ font-weight: 400;
 */
 
 @font-face {
-font-family: "nuckle";
-src: url("css/fonts/nuckle book trial.otf");
-src: url("css/fonts/nuckle book trial.otf") format("opentype");
-}
-
-@font-face {
 font-family: "bebasneue";
 src: url("fonts/bebasneue.eot");
 src: url("fonts/bebasneue.woff") format("woff"),
 url("fonts/bebasneue.otf") format("opentype"),
 url("fonts/bebasneue.svg#filename") format("svg");
+}
+
+@font-face {
+font-family: "nuckle";
+src: url("fonts/nuckle.eot");
+src: url("fonts/nuckle.woff") format("woff"),
+url("fonts/nuckle.otf") format("opentype"),
+url("fonts/nuckle.svg#filename") format("svg");
 }
 
 .white2{
