@@ -34,7 +34,7 @@ url("fonts/bebasneue.svg#filename") format("svg");
 /*
 .donut p {
 color: white;
-    font-family: "bebas neue", sans-serif;
+    font-family: "bebasneue", sans-serif;
     font-size: 124pt;
     line-height: 110pt;
     text-align: right;
@@ -88,7 +88,7 @@ color: white;
 .indexck /* Name/ */
 {
     color: white;
-    font-family: "bebas neue", sans-serif;
+    font-family: "bebasneue", sans-serif;
     font-size: 159pt;
     line-height: 130pt;
     text-align: right;
@@ -101,7 +101,7 @@ color: white;
 {
 text-decoration-line: none;
     color: white;
-    font-family: "bebas neue", sans-serif;
+    font-family: "bebasneue", sans-serif;
     font-size: 124pt;
     line-height: 110pt;
     text-align: right;
@@ -114,7 +114,7 @@ text-decoration-line: none;
 .indexabout /* Name/ */
 {
     color: white;
-    font-family: "bebas neue", sans-serif;
+    font-family: "bebasneue", sans-serif;
     font-size: 124pt;
     line-height: 110pt;
     text-align: right;
@@ -127,7 +127,7 @@ text-decoration-line: none;
 .indexcontact /* Name/ */
 {
     color: white;
-    font-family: "bebas neue", sans-serif;
+    font-family: "bebasneue", sans-serif;
     font-size: 124pt;
     line-height: 110pt;
     text-align: right;
@@ -154,7 +154,7 @@ text-decoration-line: none;
 
 .beer p {
 color: white;
-    font-family: "bebas neue", sans-serif;
+    font-family: "bebasneue", sans-serif;
     font-size: 124pt;
     line-height: 110pt;
     text-align: right;
@@ -200,7 +200,7 @@ width: 100%;
 .workhead
 {
     margin-left: 5px;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 159pt;
     line-height: 130pt;
     letter-spacing: -5px;
@@ -208,7 +208,7 @@ width: 100%;
 }
 
 .workcftext{
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 81pt;
     color: ghostwhite;
     line-height: 72px;
@@ -223,7 +223,7 @@ width: 100%;
 
 .cfheading{
 
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 52pt;
 }
 
@@ -242,7 +242,7 @@ width: 100%;
 .workmedtext{
     
     color: ghostwhite;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 81pt;
     padding: 10px;
     padding-top: 10px;
@@ -268,7 +268,7 @@ width: 100%;
 .downloadtext{
     margin-top: -10px;
     color: ghostwhite;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 81pt;
     line-height: 130px;
     margin-left: 5px;
@@ -297,14 +297,14 @@ a:hover {
 
 .navtitles 
 {
-    font-family: 'bebas neue' ;
+    font-family: 'bebasneue' ;
     color: whitesmoke;!important
     
 }
 
 .navtitles :hover
 {
-    font-family: 'bebas neue' ;
+    font-family: 'bebasneue' ;
     color: black;
 background-color: yellow;
 }
@@ -400,7 +400,7 @@ background-color: yellow;
     
     margin-left: -200px;
     margin-top: -90px;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 199pt;
     line-height: 189pt;
     color: black;
@@ -412,7 +412,7 @@ background-color: yellow;
     margin-left: -210px;
     margin-top: 10px;
     text-align:left;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 115pt;
     line-height: 96pt;
     color: ghostwhite;
@@ -453,7 +453,7 @@ background-color: yellow;
 .oldusercaption
 {
     background-color: yellow;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     color: black;
     font-size: 21pt;
     line-height: 21pt;
@@ -466,7 +466,7 @@ background-color: yellow;
 .newusercaption
 {
     background-color: yellow;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     color: black;
     font-size: 21pt;
     line-height: 21pt;
@@ -511,7 +511,7 @@ background-color: yellow;
 .medimg4caption{
     
     background-color: yellow;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     color: black;
     font-size: 21pt;
     line-height: 21pt;
@@ -532,7 +532,7 @@ background-color: yellow;
 .medimg5caption{
     
     background-color: yellow;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     color: black;
     font-size: 20pt;
     line-height: 18pt;
@@ -553,7 +553,7 @@ background-color: yellow;
 .medimg6caption{
     
     background-color: yellow;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     color: black;
     font-size: 21pt;
     line-height: 21pt;
@@ -566,7 +566,7 @@ background-color: yellow;
 .tuslaheading{ 
     margin-left: -210px;
     margin-top: 90px;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 149pt;
     line-height: 139pt;
     color: black;
@@ -672,7 +672,7 @@ background-color: yellow;
      margin-left: -220px;
     margin-top: 10px;
     text-align:left;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 115pt;
     line-height: 99pt;
     color: ghostwhite;
@@ -707,7 +707,7 @@ background-color: yellow;
 
 .tuslacaption1{
     background-color: yellow;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     color: black;
     font-size: 21pt;
     line-height: 20pt;
@@ -720,7 +720,7 @@ background-color: yellow;
 
 .tuslacaption2{
     background-color: yellow;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     color: black;
     font-size: 21pt;
     line-height: 18pt;
@@ -733,7 +733,7 @@ background-color: yellow;
 
 .tuslacaption3{
     background-color: yellow;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     color: black;
     font-size: 21pt;
     line-height: 20pt;
@@ -777,7 +777,7 @@ background-color: yellow;
 
 .email{
       
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 93pt;
     color: ghostwhite;
     line-height: 65px;
@@ -789,7 +789,7 @@ background-color: yellow;
 .contacthead{
      
     margin-left: -155px;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 159pt;
     line-height: 130pt;
     letter-spacing: -5px;
@@ -799,7 +799,7 @@ background-color: yellow;
 
 .contactb{
       
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 93pt;
     color: ghostwhite; !important
     line-height: 72px;
@@ -813,7 +813,7 @@ background-color: yellow;
   
 .contactl{
       
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 93pt;
     color: ghostwhite; !important
     line-height: 72px;
@@ -823,7 +823,7 @@ background-color: yellow;
     
 .contacti{
      margin-top: -100px;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 93pt;
     color: ghostwhite; !important
     line-height: 72px;
@@ -834,7 +834,7 @@ background-color: yellow;
 
 .abouthead{
     margin-left: -25px;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 159pt;
     line-height: 130pt;
     letter-spacing: -5px;
@@ -843,7 +843,7 @@ background-color: yellow;
 }
 
 .aboutpara{
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     color: black;
     font-size: 58pt;
     line-height: 52pt;
@@ -854,7 +854,7 @@ background-color: yellow;
 
 
 .aboutdog{
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     color: black;
     font-size: 58pt;
     line-height: 52pt;
@@ -871,7 +871,7 @@ background-color: yellow;
 
 
 .aboutplayful{
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     color: black;
     font-size: 58pt;
     line-height: 52pt;
@@ -886,7 +886,7 @@ background-color: yellow;
 }
 
 .aboutind{
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     color: black;
     font-size: 58pt;
     line-height: 52pt;
@@ -966,7 +966,7 @@ Extra large   ≥1200px   .col-xl-
 
 .abouthead{
     margin-left: 25px;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 75pt;
     line-height: 130pt;
     letter-spacing: -5px;
@@ -988,7 +988,7 @@ Extra large   ≥1200px   .col-xl-
 .newusercaption
 {
     background-color: yellow;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     color: black;
     font-size: 12pt;
     line-height: 12pt;
@@ -1050,7 +1050,7 @@ Extra large   ≥1200px   .col-xl-
     
     margin-left: 2px;
     margin-top: -80px;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 111pt;
     line-height: 96pt;
     color: black;
@@ -1062,7 +1062,7 @@ Extra large   ≥1200px   .col-xl-
     margin-left: -22px;
     margin-top: 10px;
     text-align: left;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 33pt;
     line-height: 30pt;
     color: ghostwhite;
@@ -1104,7 +1104,7 @@ Extra large   ≥1200px   .col-xl-
 .oldusercaption
 {
     background-color: yellow;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     color: black;
     font-size: 15pt;
     line-height: 15pt;
@@ -1118,7 +1118,7 @@ Extra large   ≥1200px   .col-xl-
 .newusercaption
 {
    background-color: yellow;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     color: black;
     font-size: 15pt;
     line-height: 15pt;
@@ -1170,7 +1170,7 @@ Extra large   ≥1200px   .col-xl-
 .workhead
 {
     margin-left: 5px;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 75pt;
     line-height: 130pt;
     letter-spacing: -2px;
@@ -1178,7 +1178,7 @@ Extra large   ≥1200px   .col-xl-
 }
 
 .workcftext{
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 51pt;
     color: ghostwhite;
     line-height: 60px;
@@ -1194,7 +1194,7 @@ Extra large   ≥1200px   .col-xl-
 
 .cfheading{
 
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 52pt;
 }
 
@@ -1212,7 +1212,7 @@ Extra large   ≥1200px   .col-xl-
 
 .workmedtext{
     
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 54pt;
     color: ghostwhite;
     line-height: 69px;
@@ -1239,7 +1239,7 @@ Extra large   ≥1200px   .col-xl-
 
 .downloadtext{
     margin-top: -10px;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 54pt;
     color: ghostwhite;
     line-height: 69px;
@@ -1250,7 +1250,7 @@ Extra large   ≥1200px   .col-xl-
 .contacthead{
      
     margin-left: 25px;
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 63pt;
     line-height: 130pt;
     letter-spacing: 1px;
@@ -1260,7 +1260,7 @@ Extra large   ≥1200px   .col-xl-
 
 .contactb{
       
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
    font-size: 24pt;
     color: ghostwhite; !important
     line-height: 72px;
@@ -1270,7 +1270,7 @@ Extra large   ≥1200px   .col-xl-
     
 .contactl{
       
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 24pt;
     color: ghostwhite; !important
     line-height: 72px;
@@ -1279,7 +1279,7 @@ Extra large   ≥1200px   .col-xl-
 }
     
 .contacti{
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 24pt;
     color: ghostwhite; 
     margin-left: 120px;
@@ -1288,7 +1288,7 @@ Extra large   ≥1200px   .col-xl-
     
 .email{
       
-    font-family: 'bebas neue';
+    font-family: 'bebasneue';
     font-size: 24pt;
     color: ghostwhite;
     margin-top: -90px;
@@ -1311,7 +1311,7 @@ Extra large   ≥1200px   .col-xl-
 
 .beer p {
 color: white;
-    font-family: "bebas neue", sans-serif;
+    font-family: "bebasneue", sans-serif;
     font-size: 124pt;
     line-height: 110pt;
     text-align: right;
